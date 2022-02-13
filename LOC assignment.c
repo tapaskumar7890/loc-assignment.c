@@ -13,9 +13,9 @@ int main()
         printf("\nHobbies:");
         scanf("%s",d);
         printf("Name: %s\n",a);
-        printf("Branch: %s\n",b);
-        printf("\nHobbies: %s\n",c);
-        printf("\nRegd.no.: %d\n",d);
+        printf("\nRegd.no.: %d\n",b);
+        printf("Branch: %s\n",c);
+        printf("\nHobbies: %s\n",d);
         return 0;
         
 }
@@ -111,7 +111,7 @@ int main()
     c=2*PI*r;
     printf("\n Cicumference is %f",c);
     
-    a=PI*r*r;
+    area=PI*r*r;
     printf("\n Area is %f",area);
 
     return 0;
